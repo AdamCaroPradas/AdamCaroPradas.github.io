@@ -1,0 +1,164 @@
+header{
+    background-color:rgb(100, 148, 0);
+    font-size:1.2rem;
+    height:45px;
+}
+
+body{
+    margin: 0px;
+}
+
+.topnav a{
+    text-decoration: none;
+    color:white;
+}
+
+a[href$='#aboutMe']{
+    position:absolute;
+    left:10;
+    margin-top: 10px;
+    margin-left:30px;
+}
+
+a[href$='#resume']{
+    position:absolute;
+    left:45%;
+    margin-top: 10px;
+}
+
+a[href$='#contactMe']{
+    position:absolute;
+    right:0;
+    margin-right:30px;
+    margin-top: 10px;
+}
+
+body{
+    background-color: rgb(217,246,187);
+}
+
+img{
+    width:200px;
+    margin-left: 30px;
+    margin-top: -30px;
+    float: left;
+    float:left;
+}
+
+.generalInfo{
+    display:flex;
+}
+
+
+.general1{
+    width: 20%;
+}
+
+.genreal2{
+    width: 40%;
+}
+
+.genreal3{
+    width: 20%;
+}
+
+.genreal4{
+    width: 20%;
+}
+
+h2[href$='myCV']{
+    margin-left: 30px;
+    font-size: 60px;
+}
+
+h2[href$='programmer']{
+    /*margin-left: 27%;*/
+    font-size: 60px;    
+}
+
+h2[href$='generalInfo']{
+    /*margin-left: 20%;*/
+    font-size: 60px;
+}
+
+hr{
+    background-color:black;
+    height:1px;
+    /*margin-left: 20%;*/
+    margin-top: -30px;
+}
+
+.general2 p{
+    font-size:20px;
+}
+
+li{
+    margin-top:15px;
+    margin-left:45px;
+    font-size:25px;
+}
+
+h2[href$='aboutMe']{
+    font-size: 50px;
+    margin-left:30px;
+}
+
+h2[href$='resume']{
+    font-size: 50px;
+    margin-left:30px;
+}
+
+h2[href$='contactMe']{
+    font-size: 50px;
+    margin-left:30px;
+}
+
+.optionMenu p{
+    font-size:30px;
+    margin-left: 15px;
+}
+
+.bottomLine{
+    background-color: rgb(9,125,35);
+    height:2px;
+}
+
+footer{
+    background-color: darkgreen;
+    text-align: center;
+    padding: 15px 30px;
+    color:white;
+}
+
+.languages{
+    display:flex;
+    list-style-type: none;
+    margin-bottom: 50px;
+}
+
+li[href$='first']{
+    position: absolute;
+    left:0;
+}
+
+li[href$='second']{
+    position: absolute;
+    left:25%;
+}
+
+li[href$='third']{
+    position: absolute;
+    left:50%;
+}
+
+li[href$='fourth']{
+    position: absolute;
+    left:75%;
+}
+/*
+.optionMenu a{
+    font-size:30px;
+    margin-left: 15px;
+    margin-right:30px;
+    
+}*/
